@@ -28,7 +28,7 @@ app.use((req, res, next) => {
 });
 
 // Routing
-var articlesController = require("./server/controllers/article-controller");
+var articlesController = require("./controllers/article-controller");
 var router = new express.Router();
 // Define any API routes first
 // Get saved articles
